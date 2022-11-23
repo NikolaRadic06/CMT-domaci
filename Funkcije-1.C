@@ -15,11 +15,14 @@ int main()
         a = 0,
         arr[41];
 
-    do
+    scan:
+        scanf("%d", &n);
+
+    if(n < 3 || n > 41)
         {
-            scanf("%d", &n);
+            printf("Greska\n");
+            goto scan;
         }
-    while(n < 1 && n >= 42);
 
     unesiElementeNiza(arr, n);
     printf("\n");
