@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int saberiElemente(const int niz[], int *suma);
 
